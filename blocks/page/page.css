@@ -1,32 +1,30 @@
 .page{
   font-family: 'Inter', Arial, sans-serif;
-  font-style: normal;
+  max-width: 1280px;
   background-color: #2a2c2f;
-  width: 1280px;
-  height: 6875px;
+  background-size: 100% 100%;
   margin: 0 auto;
+  padding: 0;
 }
-@media screen and (min-width: 0px) and (max-width: 320px){
+@media screen and (min-width: 0px) and (max-width: 767px){
     .page{
-        width: 320px;
-        height: 9630px;
+        max-width: 320px;
     }
 }
-@media screen and (min-width: 321px) and (max-width: 768px){
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
     .page{
-        width: 768px;
-        height: 6855px;
+        max-width: 768px;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1024px){
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
     .page{
-        width: 1024px;
-        height: 6895px;
+        max-width: 1024px;
     }
 }
-@media screen and (min-width: 1025px) and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .page{
-        width: 1280px;
-        height: 6875px;
+        max-width: 1280px;
     }
 }

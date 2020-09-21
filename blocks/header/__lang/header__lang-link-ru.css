@@ -1,25 +1,28 @@
 .header__lang-link-ru{
   text-decoration-line: none;
-  font-family: 'Inter';
-  font-style: normal;
   text-align: right;
-  color: #ffffff;
-  width: 30px;
+  max-width: 30px;
   font-size: 24px;
   line-height: 28px;
 }
 .header__lang-link-ru:hover{
   text-decoration: underline;
 }
-@media screen and (min-width: 0px) and (max-width: 320px){
+
+@media screen and (min-width: 0px) and (max-width: 767px){
     .header__lang-link-ru{
         font-size: 18px;
         line-height: 20px;
-        width: 22px;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 1280px){
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    .header__lang-link-ru{
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+@media screen and (min-width: 1281px){
     .header__lang-link-ru{
         font-size: 24px;
         line-height: 28px;
