@@ -19,5 +19,9 @@
     .places__paragraph{
         font-size: 16px;
         line-height: 26px;
+        margin-right: 24px;
     }
+}
+.places__paragraph:last-of-type{
+  padding-bottom: 0;
 }
