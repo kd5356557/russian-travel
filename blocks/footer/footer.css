@@ -14,14 +14,14 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px){
-    .footer{
-      width: calc(100%-48px);
-      margin: 88px 24px 24px;
-    }
+  .footer{
+    width: calc(100% - 48px);
+    margin: 88px 24px 24px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
-    .footer{
-      width: calc(100%-96px);
-    }
+  .footer{
+    width: calc(100% - 96px);
+  }
 }
