@@ -1,0 +1,17 @@
+.header__lang-link_active{  
+  text-align: right;
+  text-decoration: underline;
+  color: #f2f2f2;
+  max-width: 30px; 
+  font-size: 24px; 
+  line-height: 28px; 
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){ 
+  .header__lang-link_active{ 
+    max-width: 22px; 
+    font-size: 18px; 
+    line-height: 20px; 
+  } 
+} 

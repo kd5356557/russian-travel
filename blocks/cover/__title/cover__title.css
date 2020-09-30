@@ -1,36 +1,15 @@
-.cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
-    z-index: 3;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+.cover__title{
+  max-width: 560px;
+  margin: 0;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+ }
 
-@media screen and (min-width: 1280px){
-    .cover__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .cover__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
-
-@media screen and (min-width: 767px) and (max-width: 1024px) {
-    .cover__title {
-        font-size: 72px;
-        line-height: 76px;
-    }
-}
-
-@media screen and (min-width: 0) and (max-width: 767px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 35px;
-    }
+@media screen and (min-width: 0px) and (max-width: 767px){
+  .cover__title{
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

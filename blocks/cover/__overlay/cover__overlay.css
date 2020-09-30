@@ -1,40 +1,35 @@
-.cover__overlay {
-    background-color: #2A2C2F;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+.cover__overlay{
+  max-width: 1184px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: rgba(42, 44, 47, 0.3);
+ }
+ .cover__overlay:hover{
+  background-color: rgba(42, 44, 47, 0.8);
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+  .cover__overlay{
     width: 100%;
-    height: 740px;
-    opacity: 0.3;
-    z-index: 2;
+    height: 200px;
+  }
 }
 
-.cover__overlay:hover {
-    opacity: 0.8;
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  .cover__overlay{
+    width: 100%;
+    height: 480px;
+  }
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
-    .cover__overlay {
-        width: 100%;
-        height: 200px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .cover__overlay {
-        width: 100%;
-        height: 480px;
-    }
-}
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .cover__overlay {
-        width: 100%;
-        height: 640px;
-    }
-}
-@media screen and (min-width: 1280px){
-    .cover__overlay {
-      max-width: 1184px;
-      height: 740px;
-    }
+@media screen and (min-width: 1023px) and (max-width: 1279px){
+  .cover__overlay{
+    width: 100%;
+    height: 640px;
+  }
 }
