@@ -20,7 +20,7 @@
     grid-row-gap: 32px;
   }
   .places__place:nth-child(1){
-    margin-top: 64px;
+    margin-top: 16px;
   }
 }
 
