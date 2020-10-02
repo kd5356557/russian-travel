@@ -1,22 +1,23 @@
 .lead__title{
+  font-family: 'Inter', Arial, sans-serif;
+  font-style:  normal;
+  font-display: swap;
+  font-weight: 900;
+  color: #ffffff;
   text-align: center;
-	box-sizing: border-box;
-	max-width: 720px;
-  margin: 0 132px 32px;
-	font-size: 96px;
-	line-height: 100px;
-}
-@media screen and (min-width: 0px) and (max-width: 767px){
-    .lead__title{ 
-      max-width: 288px;
-      margin: 0 auto 16px;
-      font-size: 40px;
-      line-height: 44px;
-    }
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 720px;
+  margin: 0 auto 32px;
+  font-size: 96px;
+  line-height: 100px;
 }
 
-@media screen and (min-width: 767px) and (max-width: 1279px){
-    .lead__title{
-      margin: 0 auto 32px;
-    }
+@media screen and (max-width: 767px){
+  .lead__title{ 
+    max-width: 288px;
+    margin: 0 auto 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
 }

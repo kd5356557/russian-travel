@@ -1,19 +1,11 @@
 .footer__link{
-    font-size: 16px;
-    line-height: 18px;
-    text-decoration: none;
-    padding-right: 18px;
-    color: #ffffff;
-}
-.footer__link:nth-child(1){
-    padding-left: 0;
-}
-.footer__link:last-of-type{
-    margin-right: 0;
+  font-size: 16px; 
+  line-height: 18px;
+  text-decoration: none; 
+  color: #ffffff;
 }
 
-
-@media screen and (min-width: 0px) and (max-width: 767px){
+@media screen and (max-width: 767px){
   .footer__link{
     font-size: 24px;
     line-height: 24px;
