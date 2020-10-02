@@ -15,7 +15,7 @@
         font-size: 32px;
         line-height: 35px;
     }
-    .places__place:nth-child(1){
+    .places__place:nth-of-type{
       margin: 0 auto 0;
     }
 }
