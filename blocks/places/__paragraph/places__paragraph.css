@@ -14,9 +14,6 @@
     line-height: 26px;
     margin: 32px auto 24px;
   }
-  .places__paragraph:nth-child(1){
-    margin: 0 auto 0;
-  }
   .places__paragraph:last-child{
     margin: 0 auto 0;
   }
